@@ -100,9 +100,102 @@ h2 {
     border-radius: 4px;
 }
 
+.link3 {
+
+
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(to top, rgb(255, 5, 5), rgb(245, 195, 195));
+    color: rgb(248, 242, 242);
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
 .donateplan {
     text-align: center;
     margin: 20px 200px 20px 200px;
+}
+
+
+
+.input {
+    text-align: center;
+}
+
+#mail {
+    border-radius: 5px;
+    padding-right: 10px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.colorinput {
+    margin-left: 370px;
+    height: 250px;
+    width: 600px;
+    background-color: rgb(243, 219, 203);
+}
+
+#subscribe {
+    border-radius: 5px;
+    padding-right: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    background-color: rgb(243, 8, 8);
+}
+
+.FES {
+    display: flex;
+}
+
+#food {
+    margin: 5%;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(193, 219, 230);
+}
+
+#foodicon {
+    margin-left: 30px;
+}
+
+.foodtext {
+    margin-left: 30px;
+}
+
+#shalter {
+    margin: 5%;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(230, 193, 213);
+}
+
+#shaltericon {
+    margin-left: 30px;
+}
+
+.shaltertext {
+    margin-left: 30px;
+}
+
+#education {
+    margin: 5%;
+    height: 300px;
+    width: 550px;
+    background-color: rgb(193, 230, 199);
+}
+
+#educationicon {
+    height: 50px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.educationtext {
+    margin-left: 30px;
 }
 
 #footer {
@@ -113,6 +206,20 @@ h2 {
     height: 250px;
 }
 
+.kindness {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.vlog1 {
+    margin-left: 80px;
+    height: 450px;
+    width: 450px;
+}
+
+.vlog {
+    display: flex;
+}
 
 #each {
 
