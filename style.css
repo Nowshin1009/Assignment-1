@@ -11,19 +11,19 @@ h1 {
 
 #lekha1 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 800;
     color: white;
 }
 
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
 
 .container img {
-    filter: blur(7px);
+    filter: blur(8px);
 }
 
 .centered {
@@ -32,6 +32,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 .link {
     text-decoration: none;
@@ -84,10 +85,12 @@ h2 {
 }
 
 #other {
-    text-align: center;
-    color: rgb(194, 182, 182);
     font-size: 20px;
-    font-weight: 300;
+    margin-left: 400px;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 .link2 {
@@ -125,25 +128,26 @@ h2 {
 #mail {
     border-radius: 5px;
     padding-right: 10px;
-    padding: 12px;
+    padding: 14px;
     border: none;
     background-color: rgb(243, 243, 243);
 }
 
 .colorinput {
-    margin-left: 370px;
-    height: 250px;
-    width: 600px;
+    margin-left: 340px;
+    height: 200px;
+    width: 700px;
     background-color: rgb(243, 219, 203);
 }
 
 #subscribe {
+    margin-left: 0px;
     border-radius: 5px;
     padding-right: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    padding: 6px;
+    padding: 10px;
     background-color: rgb(243, 8, 8);
 }
 
