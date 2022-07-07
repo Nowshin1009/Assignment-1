@@ -15,22 +15,23 @@ h1 {
     color: white;
 }
 
-.container {
-    position: relative;
+#img-cover {
+    background-image: url(mypic/cover1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-position {
     text-align: center;
     color: rgb(255, 255, 255);
-
-}
-
-.container img {
-    filter: blur(8px);
-}
-
-.centered {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 10%;
 }
 
 
@@ -138,7 +139,7 @@ h2 {
     margin-left: 340px;
     height: 200px;
     width: 700px;
-    background-color: rgb(243, 219, 203);
+    background-color: rgb(235, 221, 211);
 }
 
 #subscribe {
